@@ -50,10 +50,14 @@ $('#categoryId').on('change', function (evt) {
   if (isNaN(categoryId)) return
   getCategoryProducts(categoryId, function (err, products) { // err is null, callback(categoryProducts) begins
     if(err) return console.log(err)
+    divControl = ""
     // insert products in dom
-    for (var i = 0; i < products.length; i++) { // append to the dom
+    for (var i = 0; i < products.length; i++) {
+      if (i % 3 === 0) {
+        divControl += `<div class="row">`
+      } // append to the dom
       var product = products[i]
-      $('#insertProducts').append(`
+      divControl += `
         <div class="col-md-4">
           <p>${product.name}</p>
           <ul>
@@ -62,8 +66,14 @@ $('#categoryId').on('change', function (evt) {
           </ul>
           <p>${product.description}</p>
           <hr />
-        </div>
-      `)
+        </div>`
+      if ((i + 1) % 3 === 0) {
+      divControl += `</div>`
+      }
     }
+    console.log("where am i")
+    $('#insertProducts').html(divControl)
+    console.log("anybody out there?")
   })
 })
+
