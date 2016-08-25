@@ -1,0 +1,41 @@
+{
+  "types": [
+    {
+      "id": 0,
+      "category": 0,
+      "name": "personal",
+      "description": "Fireworks intended for recreational use during holiday celebrations"
+    },
+    {
+      "id": 1,
+      "category": 0,
+      "name": "professional",
+      "description": "High grade fireworks intended for professionals in controlled areas."
+    },
+    {
+      "id": 2,
+      "category": 0,
+      "name": "Chinese",
+      "description": "These are available only to those who `know a guy` "
+    },
+    {
+      "id": 3,
+      "category": 1,
+      "name": "military",
+      "description": "These explosives are used to take down small buildings such as homes and small businesses."
+    },
+    {
+      "id": 4,
+      "category": 1,
+      "name": "commercial",
+      "description": "These explosives are used to take down medium sized buildings such as apartment buildings or office buildings."
+    },
+    {
+      "id": 5,
+      "category": 1,
+      "name": "experimental",
+      "description": "These explosives are used to take down large buildings such as malls and skyscrapers."
+    }
+
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "type": 0,
+      "name": "One Minute Sparkler",
+      "description": "Sparklers with a 1-minute burn time."
+    }, {
+      "id": 1,
+      "type": 0,
+      "name": "Two Minute Sparkler",
+      "description": "Sparklers with a 2-minute burn time."
+    }, {
+      "id": 2,
+      "type": 0,
+      "name": "Five Minute Sparkler",
+      "description": "Sparklers with a 5-minute burn time."
+    }, {
+      "id": 3,
+      "type": 1,
+      "name": "White Lights",
+      "description": "Fireworks that burn only white."
+    }, {
+      "id": 4,
+      "type": 1,
+      "name": "Single Color Lights",
+      "description": "Fireworks that burn only one single color."
+    }, {
+      "id": 5,
+      "type": 1,
+      "name": "Multi-Colored Lights",
+      "description": "Fireworks that burn two or more colors."
+    }, {
+      "id": 6,
+      "type": 2,
+      "name": "Ancient Chinese Fireworks",
+      "description": "Replica fireworks in the style of the original Chinese fireworks."
+    }, {
+      "id": 7,
+      "type": 2,
+      "name": "Modern Chinese Fireworks",
+      "description": "Modern-day Chinese fireworks."
+    }, {
+      "id": 8,
+      "type": 2,
+      "name": "Cutting-edge Chinese Fireworks",
+      "description": "Cutting-edge Chinese fireworks"
+    }, {
+      "id": 9,
+      "type": 3,
+      "name": "Small Military Grade Explosives",
+      "description": "Handheld explosive devices."
+    }, {
+      "id": 10,
+      "type": 3,
+      "name": "Medium Military Grade Explosives",
+      "description": "RPGs, mortars, etc."
+    }, {
+      "id": 11,
+      "type": 3,
+      "name": "Large Military Grade Explosives",
+      "description": "Missiles, rockets, large bombs."
+    }, {
+      "id": 12,
+      "type": 4,
+      "name": "Small Buildings Implosion",
+      "description": "Explosives designed to take down small buildings in a controlled manner."
+    }, {
+      "id": 13,
+      "type": 4,
+      "name": "Medium Buildings Implosion",
+      "description": "Explosives designed to take down medium-sized buildings in a controlled manner."
+    }, {
+      "id": 14,
+      "type": 4,
+      "name": "Large Commercial Buildings Implosion",
+      "description": "Explosives designed to take down large buildings in a controlled manner."
+    }, {
+      "id": 15,
+      "type": 5,
+      "name": "Explosive X",
+      "description": "Security Clearance Level III Necessary."
+    }, {
+      "id": 16,
+      "type": 5,
+      "name": "Explosive Y",
+      "description": "Security Clearance Level IV Necessary."
+    }, {
+      "id": 17,
+      "type": 5,
+      "name": "Explosive Zed",
+      "description": "Security Clearance Level V Necessary."
+    }
+  ]
+}
